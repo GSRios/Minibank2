@@ -104,7 +104,7 @@ To make some withdrawals.
 curl -d "{\"amount\":2000.00}" -H "Content-Type: application/json" -X POST http://localhost:5000/account/f298a359-3459-4e49-a02b-ac2770a80ab8/withdrawal
 ```
 
-To show the history account.
+To show the account history.
 
 ```
 curl  -H "Content-Type: application/json" -X GET http://localhost:5000/account/f298a359-3459-4e49-a02b-ac2770a80ab8/history
