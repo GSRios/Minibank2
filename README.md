@@ -111,7 +111,7 @@ curl  -H "Content-Type: application/json" -X GET http://localhost:5000/account/f
 ```
 
 
-### Notes
+## Notes
 
 To send emails to each created account, it is necessary to uncomment the line 'self.send_email (account.id)' in the accountService.py file and perform the proper configuration, email, password and recipients in the 'def send_email (self, account) '.
 
