@@ -38,6 +38,8 @@ CREATE TABLE EVENTS (
 )
 ```
 
+Into the /store/connection.py, include a user and password to database.
+
 ## Running the tests
 
 On the folder root execute the unitTests.py file.
